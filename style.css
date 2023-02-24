@@ -284,7 +284,7 @@ body
 
 /* 668px mobile size */
 @media(max-width:668px)
-{
+{   
     .body-center .right h3{font-size: 22px;}
     .ring-circle-box{margin: 0 10px 30px 10px;}
     #chainContainer{padding-top: 17%;}
@@ -293,6 +293,11 @@ body
 /* 600px mobile size */
 @media(max-width:600px)
 {
+    body
+{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
     .main{display: none;}
 
     /* main container start */
